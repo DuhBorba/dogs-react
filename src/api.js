@@ -21,7 +21,6 @@ export function USER_GET(token){
       headers: {
         Authorization: 'Bearer ' + token
       },
-      body: JSON.stringify(body),
     }
   }
 }
